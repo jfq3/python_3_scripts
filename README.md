@@ -22,3 +22,4 @@ The python scripts in RDPTools and FunGene Pipeline are written in python 2. If 
 ./pipeline.py
 ./parseErrorAnalysis.py
 ./titanium_run_processor.py
+
