@@ -14,7 +14,7 @@ The python scripts in RDPTools and FunGene Pipeline are written in python 2. If 
 ./Xander_assembler/pythonscripts/reverse.py
 ./Xander_assembler/pythonscripts/parse_ncbi_lineage.py
 
-##FunGene_Pipeline
+## FunGene_Pipeline
 ./fgp_wrapper.py
 ./seq_trimmer_model.py
 ./pipeline_core.py
