@@ -14,7 +14,7 @@ The python scripts in RDPTools and FunGene Pipeline are written in python 2. If 
 ./Xander_assembler/pythonscripts/reverse.py  
 ./Xander_assembler/pythonscripts/parse_ncbi_lineage.py  
 
-## Possible edits to bash script files  
+## Possible edits to RDPTools bash script files  
 Download the test file hello.py, make sure it is executable, and attempt to run it with:  
 
 python hello.py  
