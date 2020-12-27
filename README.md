@@ -16,16 +16,20 @@ The python scripts in RDPTools and FunGene Pipeline are written in python 2. If 
 
 ## Possible edits to bash script files  
 Download the test file hello.py, make sure it is executable, and attempt to run it with:  
+
 python hello.py  
+
 If you get an error, then try:  
+
 python3 hello.py  
-If thaat works, then edit lines beginning with python in the following files to begin with python3 instead:  
 
-./Xander_assembler/bin/run_xander_findStarts.sh:
-python3 ${REF_DIR}/pythonscripts/getUniqueStarts.py temp_starts_*.txt > uniq_starts.txt; rm temp_starts_*.txt
+If that works, then edit lines beginning with python in the following files to begin with python3 instead:  
 
-./Xander_assembler/bin/prepare_gene_ref.sh:
-python3 ${JAR_DIR}/Xander_assembler/pythonscripts/reverse.py ${gene}_seeds_aligned.fasta
+./Xander_assembler/bin/run_xander_findStarts.sh:  
+python3 ${REF_DIR}/pythonscripts/getUniqueStarts.py temp_starts_*.txt > uniq_starts.txt; rm temp_starts_*.txt  
+
+./Xander_assembler/bin/prepare_gene_ref.sh:  
+python3 ${JAR_DIR}/Xander_assembler/pythonscripts/reverse.py ${gene}_seeds_aligned.fasta  
 
 ## FunGene_Pipeline  
 ./fgp_wrapper.py  
